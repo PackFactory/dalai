@@ -34,7 +34,7 @@ npx dalai install 7B 13B
         break;
       }
     }
-    new Dalai().install(...args).then(() => {
+    new Dalai('~/dalai-venv-py310').install(...args).then(() => {
       process.exit(0)
     })
   }
